@@ -26,7 +26,9 @@ collections:
       - {label: "Price", name: "price", widget: "string"} 
 
  
+<--! site/static/admin/config.yml --> 
 media_folder: "src/img/gallery" # Folder where user uploaded files should go
+...
   - name: gallery
     label: "Gallery Image" # Used in the UI, ie.: "New Post"
     folder: "site/content/gallery" # The path to the folder where the documents are stored
